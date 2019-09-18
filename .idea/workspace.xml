@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f305b8c1-ed9f-4fc8-97f8-409a60f44809" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka_producer/src/main/java/com/example/eureka_producer/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka_producer/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="f305b8c1-ed9f-4fc8-97f8-409a60f44809" name="Default Changelist" comment="生產者">
+      <change afterPath="$PROJECT_DIR$/eureka_consumer/src/main/java/com/example/eureka_consumer/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka_producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_producer/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka_server_one/target/" />
     <ignored path="$PROJECT_DIR$/eureka_server_two/target/" />
     <ignored path="$PROJECT_DIR$/eureka_server_three/target/" />
     <ignored path="$PROJECT_DIR$/eureka_producer/target/" />
+    <ignored path="$PROJECT_DIR$/eureka_consumer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +21,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka_consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka_consumer/src/main/java/com/example/eureka_consumer/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +62,7 @@
         <option value="$PROJECT_DIR$/eureka_producer/src/main/java/com/example/eureka_producer/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/eureka_producer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka_producer/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka_consumer/src/main/java/com/example/eureka_consumer/controller/HelloController.java" />
       </list>
     </option>
   </component>
@@ -75,6 +97,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -86,87 +109,33 @@
             <path>
               <item name="eureka-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka_consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_server_one" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_server_one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_server_one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka_server_one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,7 +145,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568714581849" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568793805676" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../minecraft" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -214,6 +183,13 @@
     <option name="contentProportion" value="0.21049784" />
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaServerThreeApplication">
+    <configuration name="EurekaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka_consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka_consumer.EurekaConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka_producer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka_producer.EurekaProducerApplication" />
@@ -250,9 +226,10 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaServerTwoApplication" />
-      <item itemvalue="Spring Boot.EurekaServerOneApplication" />
       <item itemvalue="Spring Boot.EurekaServerThreeApplication" />
       <item itemvalue="Spring Boot.EurekaProducerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerOneApplication" />
+      <item itemvalue="Spring Boot.EurekaConsumerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -271,7 +248,11 @@
       <option name="presentableId" value="Default" />
       <updated>1568623715504</updated>
       <workItem from="1568623716967" duration="4292000" />
-      <workItem from="1568703612980" duration="8367000" />
+      <workItem from="1568703612980" duration="8421000" />
+      <workItem from="1568769542426" duration="905000" />
+      <workItem from="1568771314174" duration="875000" />
+      <workItem from="1568772424160" duration="242000" />
+      <workItem from="1568793586682" duration="236000" />
     </task>
     <task id="LOCAL-00001" summary="three">
       <created>1568709924672</created>
@@ -301,16 +282,23 @@
       <option name="project" value="LOCAL" />
       <updated>1568713866687</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="生產者">
+      <created>1568714600064</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568714600064</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12659000" />
+    <option name="totallyTimeSpent" value="14971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22814499" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -326,14 +314,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30477223" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30477223" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.5639913" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.329718" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.40520042" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,7 +342,8 @@
     <MESSAGE value="修改節點1的註冊中心，添加節點3的註冊中心" />
     <MESSAGE value="添加節點3的application" />
     <MESSAGE value="init生產者" />
-    <option name="LAST_COMMIT_MESSAGE" value="init生產者" />
+    <MESSAGE value="生產者" />
+    <option name="LAST_COMMIT_MESSAGE" value="生產者" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/eureka_server_two/src/main/resources/application.properties">
@@ -462,6 +451,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="38" selection-start-line="38" selection-end-line="48" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_consumer/src/main/java/com/example/eureka_consumer/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
