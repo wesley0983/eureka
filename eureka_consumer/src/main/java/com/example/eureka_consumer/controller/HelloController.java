@@ -17,17 +17,24 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class HelloController {
 
-    @Autowired
-    private LoadBalancerClient client;
+//    @Autowired
+//    private LoadBalancerClient client;
 
     @Autowired
     private RestTemplate restTemplate;
 
+//    @GetMapping("")
+//    public String hello(@RequestParam String name) {
+//        name += "!";
+//        ServiceInstance instance = client.choose("eureka-producer");
+//        String url = "http://" + instance.getHost() + ":" + instance.getPort() + "/hello?name=" + name;
+//        return restTemplate.getForObject(url, String.class);
+//    }
+
     @GetMapping("")
     public String hello(@RequestParam String name) {
         name += "!";
-        ServiceInstance instance = client.choose("eureka-producer");
-        String url = "http://" + instance.getHost() + ":" + instance.getPort() + "/hello?name=" + name;
+        String url = "http://eureka-producer/hello?name=" + name;
         return restTemplate.getForObject(url, String.class);
     }
 
