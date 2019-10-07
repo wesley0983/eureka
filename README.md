@@ -10,4 +10,4 @@ java -jar eureka_producer-0.0.1-SNAPSHOT.jar --config.producer.instance=1 --serv
 java -jar eureka_producer-0.0.1-SNAPSHOT.jar --config.producer.instance=2 --server.port=8001
 ```
 
-接著訪問消費者http://localhost:8988/hello/?name=windmt即可看出是否有負載均衡
+接著訪問消費者```http://localhost:8988/hello/?name=windmt```即可看出是否有負載均衡
